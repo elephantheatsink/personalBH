@@ -37,14 +37,14 @@ class Homepage extends Component {
                     <div>
                         <Grid container spacing={5} className="PaddingSides1">
                             
-                            <Grid item xs>
+                            <Grid item xs={6}>
                                 <div className="Border1">
                                     <header className="Header2">
                                         Coding
                                     </header>
                                 </div>
                             </Grid>
-                            <Grid item xs>
+                            <Grid item xs={6}>
                                 <div className="Border1">    
                                     <header className="Header2">
                                         Fitness
@@ -55,14 +55,14 @@ class Homepage extends Component {
                         
                         
                         <Grid container spacing={5} className="PaddingSides1">
-                            <Grid item xs>
+                            <Grid item xs={6}>
                                 <div className="Border1">
                                     <header className="Header2">
                                         Starcraft   
                                     </header>
                                 </div>
                             </Grid>
-                            <Grid item xs>
+                            <Grid item xs={6}>
                                 <div className="Border1">
                                     <header className="Header2">
                                         Violin
