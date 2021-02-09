@@ -68,12 +68,15 @@ body {
 }
 
 .PaddingSides1 {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
  .MinWidth1 {
    min-width: 200px;
  }
  .MinWidth2 {
   min-width: 20px;
+}
+.MaxWidth1 {
+  max-width: 70px;
 }
