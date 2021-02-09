@@ -70,6 +70,7 @@ body {
 .PaddingSides1 {
   padding-left: 30px;
   padding-right: 30px;
+  align-items: center;
 }
  .MinWidth1 {
    min-width: 200px;
