@@ -74,3 +74,6 @@ body {
  .MinWidth1 {
    min-width: 200px;
  }
+ .MinWidth2 {
+  min-width: 20px;
+}
