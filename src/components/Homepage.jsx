@@ -22,7 +22,7 @@ import './Homepage.css'
 class Homepage extends Component {
     render() {
         return (
-            <div className="Padding1">
+            <div className="PaddingTop1 MinWidth1">
                 <div className="Border1">
                     <br/><br/> <br/> 
                     <img src={logo} className="App-logo1"/>
@@ -38,14 +38,14 @@ class Homepage extends Component {
                         <Grid container spacing={5} className="PaddingSides1">
                             
                             <Grid item xs>
-                                <div className="Border1 Padding1">
+                                <div className="Border1">
                                     <header className="Header2">
                                         Coding
                                     </header>
                                 </div>
                             </Grid>
                             <Grid item xs>
-                                <div className="Border1 Padding1">    
+                                <div className="Border1">    
                                     <header className="Header2">
                                         Fitness
                                     </header>
@@ -56,14 +56,14 @@ class Homepage extends Component {
                         
                         <Grid container spacing={5} className="PaddingSides1">
                             <Grid item xs>
-                                <div className="Border1 Padding1">
+                                <div className="Border1">
                                     <header className="Header2">
                                         Starcraft   
                                     </header>
                                 </div>
                             </Grid>
                             <Grid item xs>
-                                <div className="Border1 Padding1">
+                                <div className="Border1">
                                     <header className="Header2">
                                         Violin
                                     </header>
