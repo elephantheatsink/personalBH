@@ -6,14 +6,18 @@ body {
   text-align: center;
 }
 
-.App-logo {
+.App-logo1 {
   height: 40vmin;
   pointer-events: none;
+  max-width: 50px;
+  max-height: 50px;
+  animation: Homepage-logo-spin infinite 7s linear;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .Homepage-logo {
-    animation: Homepage-logo-spin infinite 20s linear;
+    animation: Homepage-logo-spin infinite 100s linear;
+    
   }
 }
 
@@ -39,4 +43,31 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header1 {
+  font-size: calc(20px + 2vmin);
+  color: white;
+}
+
+.Header2{
+  font-size: calc(20px + 2vmin);
+  color: rgb(226, 114, 198);
+}
+
+.Border1 {
+  border-style: solid;
+  border-color: rgb(136, 31, 168);
+  border-spacing: 15px
+}
+.Padding1 {
+  padding: 60px;
+}
+.PaddingTop1 {
+  padding-top: 50px;
+}
+
+.PaddingSides1 {
+  padding-left: 50px;
+  padding-right: 50px;
 }

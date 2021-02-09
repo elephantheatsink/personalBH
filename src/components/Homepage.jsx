@@ -5,11 +5,13 @@
  */
 import logo from './BHlogo.png'
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
+import Grid from '@material-ui/core/Grid'
 //import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 // import AppBar from 'material-ui/AppBar'
 // import TextField from 'material-ui/TextField'
 //import RaisedButton from 'material-ui/RaisedButton'
-import { NavLink } from 'react-router-dom'
+
 //import {Container} from 'react-bootstrap'
 
 import './Homepage.css'
@@ -20,19 +22,58 @@ import './Homepage.css'
 class Homepage extends Component {
     render() {
         return (
-            <div>
-                <br/><br/> <br/> 
-                <img src={logo} className="App-logo" alt="logo" />
-                <br/><br/> <br/> 
-                <p>
-                <code>you have no idea what's coming</code>
-                </p>   
-                <br/><br/> <br/> 
-                <br/> <br/> <br/>
-                   
-
+            <div className="Padding1">
+                <div className="Border1">
+                    <br/><br/> <br/> 
+                    <img src={logo} className="App-logo1"/>
+                    <br/> 
+                    
+                    <header className="Header1">
+                        Beomjin Han
+                    </header>
+                    
+                    <br/>
+                    
+                    <div>
+                        <Grid container spacing={5} className="PaddingSides1">
+                            
+                            <Grid item xs>
+                                <div className="Border1 Padding1">
+                                    <header className="Header2">
+                                        Coding
+                                    </header>
+                                </div>
+                            </Grid>
+                            <Grid item xs>
+                                <div className="Border1 Padding1">    
+                                    <header className="Header2">
+                                        Fitness
+                                    </header>
+                                </div>   
+                            </Grid>
+                        </Grid> 
+                        
+                        
+                        <Grid container spacing={5} className="PaddingSides1">
+                            <Grid item xs>
+                                <div className="Border1 Padding1">
+                                    <header className="Header2">
+                                        Starcraft   
+                                    </header>
+                                </div>
+                            </Grid>
+                            <Grid item xs>
+                                <div className="Border1 Padding1">
+                                    <header className="Header2">
+                                        Violin
+                                    </header>
+                                </div>
+                            </Grid>
+                        </Grid> 
+                    </div>
+                    <br/>    
                 
-                
+                </div>    
             </div>
         )
         
