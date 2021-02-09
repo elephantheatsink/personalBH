@@ -38,14 +38,14 @@ class Homepage extends Component {
                         <Grid container spacing={5} className="PaddingSides1">
                             
                             <Grid item xs={6}>
-                                <div className="MinWidth2 Border1 ">
+                                <div className="MaxWidth1 Border1 ">
                                     <header className="Header2">
                                         Coding
                                     </header>
                                 </div>
                             </Grid>
                             <Grid item xs={6}>
-                                <div className="MinWidth2 Border1 ">    
+                                <div className="MaxWidth1 Border1 ">    
                                     <header className="Header2">
                                         Fitness
                                     </header>
@@ -56,14 +56,14 @@ class Homepage extends Component {
                         
                         <Grid container spacing={5} className="PaddingSides1">
                             <Grid item xs={6}>
-                                <div className="MinWidth2 Border1 ">
+                                <div className="MaxWidth1 Border1 ">
                                     <header className="Header2">
                                         Starcraft   
                                     </header>
                                 </div>
                             </Grid>
                             <Grid item xs={6}>
-                                <div className="MinWidth2 Border1 ">
+                                <div className="MaxWidth1 Border1 ">
                                     <header className="Header2">
                                         Violin
                                     </header>
