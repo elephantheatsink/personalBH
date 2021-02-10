@@ -34,16 +34,16 @@ class Homepage extends Component {
                         <div className="Border2 Padding2">
                             <div className="Border1">
                                 <br/>
-                                <div  className="Row1">
-                                    <img src={logo} className="App-logo1"/>
-                                    
-                                    
-                                    <label className="Header1">
-                                        Beomjin Han
-                                    </label>
-                                </div>
+                                
+                                <img src={logo} className="App-logo1"/>
+                                
                                 <br/>
+                                <header className="Header1">
+                                    Beomjin Han
+                                </header>
+                                
                                 <br/>
+                                
                                 
                                 
                                 <div>
