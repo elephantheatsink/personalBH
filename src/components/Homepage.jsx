@@ -9,6 +9,7 @@ import coding2 from './coding2.png'
 import React, { Component } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import Grid from '@material-ui/core/Grid'
+
 //import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 // import AppBar from 'material-ui/AppBar'
 // import TextField from 'material-ui/TextField'
@@ -17,7 +18,6 @@ import Grid from '@material-ui/core/Grid'
 //import {Container} from 'react-bootstrap'
 
 import './Homepage.css'
-
 
 
 
@@ -39,9 +39,9 @@ class Homepage extends Component {
                             <br/>
                             
                             <div>
+                                
                                 <Grid container spacing={5} className="PaddingSides1">
-                                <Grid item xs={3}>
-                                </Grid>   
+                                  
                                     <Grid item xs={3}>
                                         <div>
                                             <Link to="/coding">
@@ -72,7 +72,7 @@ class Homepage extends Component {
                                             </Link>
                                         </div>   
                                     </Grid>
-                                    <Grid item xs={3}></Grid>
+                                    
                                 </Grid> 
                                 
                                 
@@ -101,7 +101,9 @@ class Homepage extends Component {
             </div>
         )
         
+    
         //return <div className= "Homepage"/>;
+        
     }
 }
 
