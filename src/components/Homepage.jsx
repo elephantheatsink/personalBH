@@ -27,81 +27,81 @@ class Homepage extends Component {
     render() {
         return (
             
-            <div className="Center1 PaddingTop1" >
+            <div className="Center1" >
                 
-                <div className="Padding2">
+                <div>
                     <div className="Border1 Padding2">
-                    <div className="Border2 Padding2">
-                        <div className="Border1">
-                            <br/>
-                            <img src={logo} className="App-logo1"/>
-                            <br/> 
-                            
-                            <header className="Header1">
-                                Beomjin Han
-                            </header>
-                            
-                            <br/>
-                            
-                            <div>
+                        <div className="Border2 Padding2">
+                            <div className="Border1">
+                                <br/>
+                                <img src={logo} className="App-logo1"/>
+                                <br/> 
                                 
-                                <Grid container spacing={5} className="PaddingSides1">
-                                  
-                                    <Grid item xs={6}>
-                                        <div>
-                                            <Link to="/coding">
-                                                
-                                                <img 
-                                                    src={coding1} 
-                                                    onMouseOver={e => (e.currentTarget.src = coding2)}
-                                                    onMouseOut={e => (e.currentTarget.src = coding1)}
-                                                    alt="coding"
-                                                    className="Border1 MaxWidth100pr"
-                                                />
-                                                
-                                            </Link>
-                                        </div>
-                                    </Grid>
-                                    <Grid item xs={6}>
-                                        <div>
-                                            <Link to="/fitness">
-                                                
-                                                <img 
-                                                    src={fitness1} 
-                                                    onMouseOver={e => (e.currentTarget.src = fitness2)}
-                                                    onMouseOut={e => (e.currentTarget.src = fitness1)}
-                                                    alt="fitness"
-                                                    className="Border1 MaxWidth100pr"
-                                                />
-                                                
-                                            </Link>
-                                        </div>   
-                                    </Grid>
+                                <header className="Header1">
+                                    Beomjin Han
+                                </header>
+                                
+                                <br/>
+                                
+                                <div>
                                     
-                                </Grid> 
-                                
-                                
-                                <Grid container spacing={5} className="PaddingSides1 ">
-                                    <Grid item xs={6}>
-                                        <div className=" Border1 ">
-                                            <header className="Header2">
-                                                Starcraft   
-                                            </header>
-                                        </div>
-                                    </Grid>
-                                    <Grid item xs={6}>
-                                        <div className=" Border1 ">
-                                            <header className="Header2">
-                                                Violin
-                                            </header>
-                                        </div>
-                                    </Grid>
-                                </Grid> 
+                                    <Grid container spacing={5} className="PaddingSides1">
+                                    
+                                        <Grid item xs={6}>
+                                            <div>
+                                                <Link to="/coding">
+                                                    
+                                                    <img 
+                                                        src={coding1} 
+                                                        onMouseOver={e => (e.currentTarget.src = coding2)}
+                                                        onMouseOut={e => (e.currentTarget.src = coding1)}
+                                                        alt="coding"
+                                                        className="Border1 MaxWidth100pr"
+                                                    />
+                                                    
+                                                </Link>
+                                            </div>
+                                        </Grid>
+                                        <Grid item xs={6}>
+                                            <div>
+                                                <Link to="/fitness">
+                                                    
+                                                    <img 
+                                                        src={fitness1} 
+                                                        onMouseOver={e => (e.currentTarget.src = fitness2)}
+                                                        onMouseOut={e => (e.currentTarget.src = fitness1)}
+                                                        alt="fitness"
+                                                        className="Border1 MaxWidth100pr"
+                                                    />
+                                                    
+                                                </Link>
+                                            </div>   
+                                        </Grid>
+                                        
+                                    </Grid> 
+                                    
+                                    
+                                    <Grid container spacing={5} className="PaddingSides1 ">
+                                        <Grid item xs={6}>
+                                            <div className=" Border1 ">
+                                                <header className="Header2">
+                                                    Starcraft   
+                                                </header>
+                                            </div>
+                                        </Grid>
+                                        <Grid item xs={6}>
+                                            <div className=" Border1 ">
+                                                <header className="Header2">
+                                                    Violin
+                                                </header>
+                                            </div>
+                                        </Grid>
+                                    </Grid> 
+                                </div>
+                                <br/>    
+                            
                             </div>
-                            <br/>    
-                        
-                        </div>
-                    </div>  
+                        </div>  
                     </div>  
                 </div>            
             </div>
