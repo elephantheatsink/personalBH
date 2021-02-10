@@ -42,7 +42,7 @@ class Homepage extends Component {
                                 
                                 <Grid container spacing={5} className="PaddingSides1">
                                   
-                                    <Grid item xs={3}>
+                                    <Grid item xs={6}>
                                         <div>
                                             <Link to="/coding">
                                                 
@@ -57,7 +57,7 @@ class Homepage extends Component {
                                             </Link>
                                         </div>
                                     </Grid>
-                                    <Grid item xs={3}>
+                                    <Grid item xs={6}>
                                         <div>
                                             <Link to="/coding">
                                                 
