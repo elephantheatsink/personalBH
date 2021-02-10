@@ -44,13 +44,15 @@ class Homepage extends Component {
                                     <Grid item xs={6}>
                                         <div>
                                             <Link to="/coding">
-                                                <img 
-                                                    src={coding1} 
-                                                    onMouseOver={e => (e.currentTarget.src = coding2)}
-                                                    onMouseOut={e => (e.currentTarget.src = coding1)}
-                                                    alt="coding"
-                                                    className="Border1"
-                                                />
+                                                <button>
+                                                    <img 
+                                                        src={coding1} 
+                                                        onMouseOver={e => (e.currentTarget.src = coding2)}
+                                                        onMouseOut={e => (e.currentTarget.src = coding1)}
+                                                        alt="coding"
+                                                        className="Border1"
+                                                    />
+                                                </button>
                                             </Link>
                                         </div>
                                     </Grid>
