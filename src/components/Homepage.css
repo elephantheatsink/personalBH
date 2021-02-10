@@ -48,6 +48,7 @@ body {
 .Header1 {
   font-size: calc(20px + 2vmin);
   color: white;
+  padding-left: 20px;
 }
 
 .Header2{
@@ -105,4 +106,9 @@ body {
   justify-content: center;
   
   align-items: top;
+  padding-top: 20px;
+}
+
+.Row1 {
+  display: inline-block;
 }
