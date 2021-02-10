@@ -51,7 +51,7 @@ class Homepage extends Component {
                                                     onMouseOver={e => (e.currentTarget.src = coding2)}
                                                     onMouseOut={e => (e.currentTarget.src = coding1)}
                                                     alt="coding"
-                                                    className="Border1"
+                                                    className="Border1 MaxWidth100pr"
                                                 />
                                                 
                                             </Link>
@@ -66,7 +66,7 @@ class Homepage extends Component {
                                                     onMouseOver={e => (e.currentTarget.src = coding2)}
                                                     onMouseOut={e => (e.currentTarget.src = coding1)}
                                                     alt="coding"
-                                                    className="Border1"
+                                                    className="Border1 MaxWidth100pr"
                                                 />
                                                 
                                             </Link>

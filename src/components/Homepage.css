@@ -95,3 +95,6 @@ body {
   align-items: center;
 }
 
+.MaxWidth100pr {
+  max-width: 100%;
+}
