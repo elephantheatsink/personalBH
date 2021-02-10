@@ -60,12 +60,21 @@ body {
   border-color: rgb(136, 31, 168);
   border-spacing: 15px
 }
+.Border2 {
+  border-style: solid;
+  border-color: rgb(55, 133, 179);
+  
+}
 .Padding1 {
   padding: 60px;
+}
+.Padding2 {
+  padding: 3px;
 }
 .PaddingTop1 {
   padding-top: 50px;
 }
+
 
 .PaddingSides1 {
   padding-left: 30px;

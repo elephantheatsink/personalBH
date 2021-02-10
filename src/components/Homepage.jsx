@@ -23,57 +23,61 @@ class Homepage extends Component {
     render() {
         return (
             <div className="PaddingTop1 MinWidth1">
-                <div className="Border1">
-                    <br/><br/> <br/> 
-                    <img src={logo} className="App-logo1"/>
-                    <br/> 
-                    
-                    <header className="Header1">
-                        Beomjin Han
-                    </header>
-                    
-                    <br/>
-                    
-                    <div>
-                        <Grid container spacing={5} className="PaddingSides1">
+                <div className="Border1 Padding2">
+                    <div className="Border2 Padding2">
+                        <div className="Border1">
+                            <br/>
+                            <img src={logo} className="App-logo1"/>
+                            <br/> 
                             
-                            <Grid item xs={6}>
-                                <div className=" Border1 ">
-                                    <header className="Header2">
-                                        Coding
-                                    </header>
-                                </div>
-                            </Grid>
-                            <Grid item xs={6}>
-                                <div className=" Border1 ">    
-                                    <header className="Header2">
-                                        Fitness
-                                    </header>
-                                </div>   
-                            </Grid>
-                        </Grid> 
+                            <header className="Header1">
+                                Beomjin Han
+                            </header>
+                            
+                            <br/>
+                            
+                            <div>
+                                <Grid container spacing={5} className="PaddingSides1">
+                                    
+                                    <Grid item xs={6}>
+                                        <div className=" Border1 ">
+                                            <header className="Header2">
+                                                Coding
+                                            </header>
+                                        </div>
+                                    </Grid>
+                                    <Grid item xs={6}>
+                                        <div className=" Border1 ">    
+                                            <header className="Header2">
+                                                Fitness
+                                            </header>
+                                        </div>   
+                                    </Grid>
+                                </Grid> 
+                                
+                                
+                                <Grid container spacing={5} className="PaddingSides1 ">
+                                    <Grid item xs={6}>
+                                        <div className=" Border1 ">
+                                            <header className="Header2">
+                                                Starcraft   
+                                            </header>
+                                        </div>
+                                    </Grid>
+                                    <Grid item xs={6}>
+                                        <div className=" Border1 ">
+                                            <header className="Header2">
+                                                Violin
+                                            </header>
+                                        </div>
+                                    </Grid>
+                                </Grid> 
+                            </div>
+                            <br/>    
                         
-                        
-                        <Grid container spacing={5} className="PaddingSides1 ">
-                            <Grid item xs={6}>
-                                <div className=" Border1 ">
-                                    <header className="Header2">
-                                        Starcraft   
-                                    </header>
-                                </div>
-                            </Grid>
-                            <Grid item xs={6}>
-                                <div className=" Border1 ">
-                                    <header className="Header2">
-                                        Violin
-                                    </header>
-                                </div>
-                            </Grid>
-                        </Grid> 
-                    </div>
-                    <br/>    
-                
-                </div>    
+                        </div>
+                    </div>    
+                </div>            
             </div>
         )
         
