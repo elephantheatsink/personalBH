@@ -6,6 +6,7 @@
 import logo from './BHlogo.png'
 import coding1 from './coding1.png'
 import coding2 from './coding2.png'
+import fitness1 from './fitness1.png'
 import React, { Component } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import Grid from '@material-ui/core/Grid'
@@ -24,7 +25,7 @@ import './Homepage.css'
 class Homepage extends Component {
     render() {
         return (
-            <div className="PaddingTop1 MinWidth1">
+            <div className="Center1" >
                 <div className="Border1 Padding2">
                     <div className="Border2 Padding2">
                         <div className="Border1">
@@ -59,13 +60,13 @@ class Homepage extends Component {
                                     </Grid>
                                     <Grid item xs={6}>
                                         <div>
-                                            <Link to="/coding">
+                                            <Link to="/fitness">
                                                 
                                                 <img 
-                                                    src={coding1} 
+                                                    src={fitness1} 
                                                     onMouseOver={e => (e.currentTarget.src = coding2)}
                                                     onMouseOut={e => (e.currentTarget.src = coding1)}
-                                                    alt="coding"
+                                                    alt="fitness"
                                                     className="Border1 MaxWidth100pr"
                                                 />
                                                 
