@@ -40,29 +40,39 @@ class Homepage extends Component {
                             
                             <div>
                                 <Grid container spacing={5} className="PaddingSides1">
-                                    
-                                    <Grid item xs={6}>
+                                <Grid item xs={3}>
+                                </Grid>   
+                                    <Grid item xs={3}>
                                         <div>
                                             <Link to="/coding">
-                                                <button>
-                                                    <img 
-                                                        src={coding1} 
-                                                        onMouseOver={e => (e.currentTarget.src = coding2)}
-                                                        onMouseOut={e => (e.currentTarget.src = coding1)}
-                                                        alt="coding"
-                                                        className="Border1"
-                                                    />
-                                                </button>
+                                                
+                                                <img 
+                                                    src={coding1} 
+                                                    onMouseOver={e => (e.currentTarget.src = coding2)}
+                                                    onMouseOut={e => (e.currentTarget.src = coding1)}
+                                                    alt="coding"
+                                                    className="Border1"
+                                                />
+                                                
                                             </Link>
                                         </div>
                                     </Grid>
-                                    <Grid item xs={6}>
-                                        <div className=" Border1 ">    
-                                            <header className="Header2">
-                                                Fitness
-                                            </header>
+                                    <Grid item xs={3}>
+                                        <div>
+                                            <Link to="/coding">
+                                                
+                                                <img 
+                                                    src={coding1} 
+                                                    onMouseOver={e => (e.currentTarget.src = coding2)}
+                                                    onMouseOut={e => (e.currentTarget.src = coding1)}
+                                                    alt="coding"
+                                                    className="Border1"
+                                                />
+                                                
+                                            </Link>
                                         </div>   
                                     </Grid>
+                                    <Grid item xs={3}></Grid>
                                 </Grid> 
                                 
                                 
