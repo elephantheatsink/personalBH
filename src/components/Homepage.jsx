@@ -7,6 +7,7 @@ import logo from './BHlogo.png'
 import coding1 from './coding1.png'
 import coding2 from './coding2.png'
 import fitness1 from './fitness1.png'
+import fitness2 from './fitness2.png'
 import React, { Component } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import Grid from '@material-ui/core/Grid'
@@ -25,8 +26,11 @@ import './Homepage.css'
 class Homepage extends Component {
     render() {
         return (
-            <div className="Center1" >
-                <div className="Border1 Padding2">
+            
+            <div className="Center1 PaddingTop1" >
+                
+                <div className="Padding2">
+                    <div className="Border1 Padding2">
                     <div className="Border2 Padding2">
                         <div className="Border1">
                             <br/>
@@ -64,8 +68,8 @@ class Homepage extends Component {
                                                 
                                                 <img 
                                                     src={fitness1} 
-                                                    onMouseOver={e => (e.currentTarget.src = coding2)}
-                                                    onMouseOut={e => (e.currentTarget.src = coding1)}
+                                                    onMouseOver={e => (e.currentTarget.src = fitness2)}
+                                                    onMouseOut={e => (e.currentTarget.src = fitness1)}
                                                     alt="fitness"
                                                     className="Border1 MaxWidth100pr"
                                                 />
@@ -97,7 +101,8 @@ class Homepage extends Component {
                             <br/>    
                         
                         </div>
-                    </div>    
+                    </div>  
+                    </div>  
                 </div>            
             </div>
         )
