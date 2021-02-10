@@ -4,8 +4,10 @@
  * This page is set up as the default route for '/' if you look in App.js at the routes...
  */
 import logo from './BHlogo.png'
+import coding1 from './coding1.png'
+import coding2 from './coding2.png'
 import React, { Component } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import Grid from '@material-ui/core/Grid'
 //import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 // import AppBar from 'material-ui/AppBar'
@@ -40,10 +42,16 @@ class Homepage extends Component {
                                 <Grid container spacing={5} className="PaddingSides1">
                                     
                                     <Grid item xs={6}>
-                                        <div className=" Border1 ">
-                                            <header className="Header2">
-                                                Coding
-                                            </header>
+                                        <div>
+                                            <Link to="/coding">
+                                                <img 
+                                                    src={coding1} 
+                                                    onMouseOver={e => (e.currentTarget.src = coding2)}
+                                                    onMouseOut={e => (e.currentTarget.src = coding1)}
+                                                    alt="coding"
+                                                    className="Border1"
+                                                />
+                                            </Link>
                                         </div>
                                     </Grid>
                                     <Grid item xs={6}>
