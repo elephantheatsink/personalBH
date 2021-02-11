@@ -17,7 +17,6 @@ body {
 @media (prefers-reduced-motion: no-preference) {
   .Homepage-logo {
     animation: Homepage-logo-spin infinite 100s linear;
-    
   }
 }
 
@@ -48,10 +47,9 @@ body {
 .Header1 {
   font-size: calc(20px + 2vmin);
   color: white;
-  
 }
 
-.Header2{
+.Header2 {
   font-size: calc(20px + 2vmin);
   color: rgb(226, 114, 198);
 }
@@ -59,12 +57,11 @@ body {
 .Border1 {
   border-style: solid;
   border-color: rgb(136, 31, 168);
-  border-spacing: 15px
+  border-spacing: 15px;
 }
 .Border2 {
   border-style: solid;
   border-color: rgb(55, 133, 179);
-  
 }
 .Padding1 {
   padding: 60px;
@@ -76,16 +73,14 @@ body {
   padding-top: 50px;
 }
 
-
 .PaddingSides1 {
   padding-left: 30px;
   padding-right: 30px;
-  
 }
- .MinWidth1 {
-   min-width: 100px;
- }
- .MinWidth2 {
+.MinWidth1 {
+  min-width: 100px;
+}
+.MinWidth2 {
   min-width: 20px;
 }
 .MaxWidth1 {
@@ -95,8 +90,6 @@ body {
   max-width: 700px;
 }
 
-
-
 .MaxWidth100pr {
   max-width: 100%;
 }
@@ -104,7 +97,7 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
-  
+
   align-items: top;
   padding-top: 20px;
 }
