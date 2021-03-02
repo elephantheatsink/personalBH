@@ -110,7 +110,7 @@ class Homepage extends Component {
             <span className="F7">of myself; </span>
             <br />
             <span className="F4">here I will show </span>
-            <span className="F1">my interests, </span>
+            <span className="F2">my interests, </span>
             <span className="F2">values, </span>
             <span className="F5">and ultimately my </span>
             <span className="F8">soul.</span>
