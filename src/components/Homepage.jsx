@@ -11,6 +11,8 @@ import fitness2 from "./fitness2.png";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
+import sc1 from "./sc1.png";
+import sc2 from "./sc2.png";
 
 //import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 // import AppBar from 'material-ui/AppBar'
@@ -72,8 +74,16 @@ class Homepage extends Component {
 
                   <Grid container spacing={5} className="PaddingSides1 ">
                     <Grid item xs={6}>
-                      <div className=" Border1 ">
-                        <header className="Header2">Starcraft</header>
+                      <div>
+                        <Link to="/starcraft">
+                          <img
+                            src={sc1}
+                            onMouseOver={(e) => (e.currentTarget.src = sc2)}
+                            onMouseOut={(e) => (e.currentTarget.src = sc1)}
+                            alt="fitness"
+                            className="Border1 MaxWidth100pr"
+                          />
+                        </Link>
                       </div>
                     </Grid>
                     <Grid item xs={6}>
