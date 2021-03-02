@@ -97,6 +97,36 @@ class Homepage extends Component {
               </div>
             </div>
           </div>
+          <br />
+          <p>
+            <span className="F1">Welcome </span>
+            <span className="F2">to my </span>
+            <span className="F3">personal website, </span>
+            <span className="F4">created with </span>
+            <span className="F5">React App.</span>
+            <br />
+            <span className="F6">I'd like to use this site as a </span>
+            <span className="F8">reflection </span>
+            <span className="F7">of myself; </span>
+            <br />
+            <span className="F4">here I will show </span>
+            <span className="F1">my interests, </span>
+            <span className="F2">values, </span>
+            <span className="F5">and ultimately my </span>
+            <span className="F8">soul.</span>
+            <span className=""></span>
+            <span className=""></span>
+            <span className=""></span>
+            <span className=""></span>
+            <span className=""></span>
+            <span className=""></span>
+            <span className=""></span>
+            <span className=""></span>
+            <span className=""></span>
+            <br />
+            <br />
+            <br />
+          </p>
         </div>
       </div>
     );
